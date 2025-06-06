@@ -4,4 +4,5 @@ import org.example.model.Order;
 
 public interface OrderRepository {
     Order findOrderById(long id);
+    void save(Order order);
 }
